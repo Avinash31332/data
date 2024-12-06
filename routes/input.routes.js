@@ -16,7 +16,7 @@ router.post('/',
         gameplay,
         user
     })
-    res.json(newData);
+    res.send('Your reponse has uploaded to Database');
 })
 
 module.exports= router;
