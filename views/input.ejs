@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../public/input.css">
+</head>
+<body 
+class="flex items-center justify-center h-screen dark:bg-neutral-900"
+>
+<form 
+class="w-96 flex flex-col"
+method="post"
+action="/input"
+>
+    <div>
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your Title</label>
+        <input id="message" rows="1" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your game title..."
+        name="title"></input>
+    </div>
+    <div>
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
+            Explain Story (If there)</label>
+        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."
+        name="story"></textarea>
+    </div>
+    <div>
+        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">
+            Explain game Mechanism (or) Gameplay</label>
+        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="example: Player runs endless on the train tracks and tackles the obstacles like trains and few other and collect other powerups..."
+        name="gameplay"></textarea>
+    </div>
+    <h2 class="mt-5 dark:text-gray-400">Who are you?</h2>
+    <!-- <div
+    class="flex border-gray-300 border-2 mt-2 h-10 rounded justify-around dark:text-gray-200"
+    > -->
+        <!-- <div>
+            <input id="gouse" type="radio" name="user" value="Gouse">
+            <label for="gouse">Gouse</label>
+        </div>
+        <div>
+            <input id="shahzaman" type="radio"  name="user" value="Shahzaman">
+            <label for="shahzaman">Shahzaman</label>
+        </div> -->
+        <input type="text" name="user" 
+        class="w-full p-2 dark:bg-gray-700 outline-none rounded-lg border-2 dark:border-0"
+        placeholder="Type first letter of your name..."
+        >
+    <!-- </div> -->
+    <button type="submit" class="bg-gray-700 rounded text-lg text-white p-2 m-3">Submit</button>
+</form>
+</body>
+</html>
