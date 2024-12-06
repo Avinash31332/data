@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
 //routes
-app.use('/input',inputData);
+app.use('/',inputData);
 
 app.listen(PORT,()=>{
     console.log(`Server running at http://localhost:${PORT}`);
