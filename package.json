@@ -10,7 +10,7 @@
   },
   "name": "express-p3",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "debug": "npx nodemon app.js"
