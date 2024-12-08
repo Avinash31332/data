@@ -1,0 +1,9 @@
+cluster data
+cluster name - game-dev-data
+password - 8DjldVXDKFoNJiuM
+username - avinashviolin4
+
+
+username- Avinash
+password - aNjC.tL2MdyL.Lu
+url -  mongodb+srv://Avinash:aNjC.tL2MdyL.Lu@game-dev-data.6v9to.mongodb.net/?retryWrites=true&w=majority&appName=game-dev-data

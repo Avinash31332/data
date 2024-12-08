@@ -10,10 +10,10 @@
   },
   "name": "express-p3",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node main.js",
-    "debug": "npx nodemon main.js"
+    "start": "node app.js",
+    "debug": "npx nodemon app.js"
   },
   "keywords": [],
   "author": "",
